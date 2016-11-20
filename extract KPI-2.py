@@ -3,7 +3,7 @@
 Created on Thu May 15 10:30:10 2014
 program to replace counter_name with counter_ID for Huawei KPI
 
-@author: Hesam.mo
+@author: Hes
 -----
 file1 = KPIname.txt    file inculde KPIs with counter name
 file2 = nametoID.txt    file inculde counter_name to counter_ID translation
@@ -24,11 +24,11 @@ import datetime as dt
 #file1 = open("Huawei 3G name.txt", "r") # folder addressing
 
 
-file1 = open(r"E:\MTN\Huawei\3G\FACTS sql\huaweikpi_cell_60-1.sql", "r")
-#file1 = open(r"E:\MTN\Huawei\LTE\FACTS imepelmentation\Huawei LTE- cellstats_60-1.sql", "r")
+file1 = open(r"E:\Huawei\3G\FACTS sql\huaweikpi_cell_60-1.sql", "r")
+#file1 = open(r"E:\Huawei\LTE\FACTS imepelmentation\Huawei LTE- cellstats_60-1.sql", "r")
 
-file3 = open(r"E:\MTN\Huawei\3G\FACTS sql\huaweikpi_cell_60-tabed.sql", "w")
-#file3 = open(r"E:\MTN\Huawei\LTE\FACTS imepelmentation\Huawei LTE- cellstats_60-2.sql", "w")
+file3 = open(r"E:\Huawei\3G\FACTS sql\huaweikpi_cell_60-tabed.sql", "w")
+#file3 = open(r"E:\Huawei\LTE\FACTS imepelmentation\Huawei LTE- cellstats_60-2.sql", "w")
 print "Name of the file: ", file1.name
 print str(dt.datetime.now())
 """
